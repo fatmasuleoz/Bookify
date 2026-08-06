@@ -14,10 +14,10 @@ The application is developed using **Kotlin**, **MVVM Architecture**, **Firebase
 - 🌍 Explore Books Shared by Other Users
 - 📖 Book Detail Page
 - ⭐ Book Rating System
-- 🔍 Search Books on Google
+- 🔍 Search Books on Google via Chrome Custom Tabs
 - ☁️ Firebase Authentication
 - 🔥 Cloud Firestore Integration
-- 🎨 Modern Material Design UI
+- 🎨 Custom Book-Themed UI
 
 ---
 
@@ -28,9 +28,10 @@ The application is developed using **Kotlin**, **MVVM Architecture**, **Firebase
 - MVVM Architecture
 - Firebase Authentication
 - Cloud Firestore
-- RecyclerView
 - Glide
+- RecyclerView
 - Material Design Components
+- Chrome Custom Tabs
 
 ---
 
@@ -77,26 +78,6 @@ Browse books shared by all users.
 Displays detailed information about a selected book, including title, author, description, rating, and a button to search the book on Google.
 
 ![Book Detail](06_book_detail.png)
-
----
-
-# 📂 Project Structure
-
-```
-app/
-├── data/
-├── model/
-├── repository/
-├── ui/
-│   ├── login/
-│   ├── register/
-│   ├── library/
-│   ├── addbook/
-│   ├── explore/
-│   └── detail/
-├── viewmodel/
-└── utils/
-```
 
 ---
 
